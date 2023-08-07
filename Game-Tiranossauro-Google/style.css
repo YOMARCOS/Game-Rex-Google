@@ -1,0 +1,61 @@
+body {
+    background: #000000;
+    width: 100%;
+
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    background-image: url(dino.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(cactus.png);
+}
+
+.Game-Over {
+    text-align: center;
+    color: #fd2c2c;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    } 
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+
+} button{
+
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+}
