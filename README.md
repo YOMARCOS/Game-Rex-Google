@@ -1,7 +1,7 @@
 # Dino Jump Game
 
 <div align="center">
-  <img src="./dinosaur.png" alt="Dino Jump Game Screenshot">
+  <img src="./assets/dinosaur.png" alt="Dino Jump Game Screenshot">
 </div>
 
 ## Descrição
