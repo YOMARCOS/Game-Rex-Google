@@ -7,7 +7,7 @@ body {
 .dino {
     width: 60px;
     height: 60px;
-    background-image: url(dino.png);
+    background-image: url(../assets/dino.png);
     position: absolute;
     bottom: 0;
 }
@@ -17,7 +17,7 @@ body {
     width: 60px;
     height: 60px;
     bottom: 0;
-    background-image: url(cactus.png);
+    background-image: url(../assets/cactus.png);
 }
 
 .Game-Over {
@@ -39,7 +39,7 @@ body {
 .background {
     position: absolute;
     bottom: 0;
-    background-image: url(background.png);
+    background-image: url(../assets/background.png);
     background-repeat: repeat-x;
     animation: slideright 600s infinite linear;
     width: 100%;
